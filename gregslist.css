@@ -1,0 +1,109 @@
+.bar {
+	background-color: #dddddd;
+	overflow: auto;
+	margin: 0px;
+	max-width: 100%;
+	padding-bottom: 20px;
+}
+
+li.greg {
+	list-style-type: none;
+	font-size: 22px;
+	color: black;
+	float: left;
+}
+
+li.link {
+	list-style-type: none;
+	float: right;
+	margin-right: 30px;
+}
+
+a {
+	text-decoration: none;
+	color: navy;
+	font-size: 22px;
+}
+
+.search {
+	margin-left: 10%;
+	margin-top: 5%;
+}
+
+input {
+	display: inline-block;
+	height: 25px;
+	font-size: 20px;
+	padding: 5px 150px 5px 5px;
+	border-radius: 5px;
+	border: 1px solid silver;
+}
+
+.icon {
+	display: inline-block;
+	height: 30px;
+	padding: 4px 2px 4px 2px;
+	margin-bottom: 5px;
+	border: 1px solid silver;
+	vertical-align: middle;
+	border-radius: 5px;
+}
+
+.browse {
+	margin-left: 10%;
+	margin-top: 3%;
+	padding: 18px 18px;
+	width: 500px;
+	border: solid 1px white;
+}
+
+
+.one, .two, .three {
+	border: solid 1px silver;
+	padding: 10px 15px 10px 15px;
+	width: 33.33%;
+}
+
+
+.one {
+	margin-right: 0px;
+	border-radius: 5px 0px 0px 5px;
+}
+
+.two {
+	border-right-style: none;
+	border-left-style: none;
+	margin-right: 0px;
+	margin-left: 0px;
+}
+
+.three {
+	border-radius: 0px 5px 5px 0px; 
+	margin-left: 0px;
+}
+
+
+.results {
+	margin-left: 10%;
+	margin-top: 3%;
+	font-size: 18px;
+}
+
+li.list{
+	list-style-type: none;
+	color: grey;
+}
+
+
+.job {
+	color: blue;
+	margin-right: 10px;
+	margin-left: 10px;
+	font-size: 20px;
+	line-height: 30px;
+	font-weight: bold ;
+}
+
+.fa:hover {
+	color:yellow;
+}
